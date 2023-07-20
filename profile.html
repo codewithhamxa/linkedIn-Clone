@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+
+            <div class="searchbox">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active"><img src="images/home.png"> <span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"> <span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"> <span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"> <span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"> <span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/Linkedin profile.png" class="nav-profile" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <!-- Profile Drop Down Menu -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/Linkedin profile.png">
+                    <div>
+                        <h3>Hamza Javed</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span> > </span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span> > </span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span> > </span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span> > </span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span> > </span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- NavBar End -->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img class="cover-pic" src="images/cover.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/Linkedin profile.png" class="profile-pic">
+                    <h1>Hamza Javed</h1>
+                    <b>Front End Web Developer at META</b>
+                    <p>Bahawalpur, Punjab, Paistan &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-1.png">
+                        <span>1 mutual connection: John Edde</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>I'm M Hamza Javed
+                    Certified Frontend Web Developer | React JS | HTML | CSS | Bootstrap | JavaScript
+
+                    I am a highly skilled and certified Frontend Web Developer with expertise in React JS, HTML, CSS,
+                    Bootstrap, and JavaScript. With over one year of professional experience, I have gained a deep
+                    understanding of web development principles and practices, allowing me to create intuitive and
+                    visually appealing user interfaces.</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Expirience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2022 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particullar computation, usually by
+                            designing and building and executable computer program</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>june 2020 - jan 2023 &middot; 2.5 years</b>
+                        <p>Computer programming is the process of performing a particullar computation, usually by
+                            designing and building and executable computer program</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>Sept 2015 - May 2018 &middot; 2.8 years</b>
+                        <p>Computer programming is the process of performing a particullar computation, usually by
+                            designing and building and executable computer program</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="expirince-link">
+                    Show all 7 Expiriences <img src="images/right-arrow.png">
+                </a>
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmjgokHVPgfYPOaHL4wtCvmRi8sPB9oj-uEA4SZEWQZg&s">
+                    <div>
+                        <h3>CUVAS, Bahawalpur</h3>
+                        <b>BS Computer Science</b>
+                        <b>2020 - 2024</b>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">Frontend Development</a>
+                <a href="#" class="skills-btn">HTML & CSS</a>
+                <a href="#" class="skills-btn">JavaScript</a>
+                <a href="#" class="skills-btn">React JS</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Urdu</a>
+            </div>
+        </div>
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principle of responsive design</p>
+                <div>
+                    <img src="images/Linkedin profile.png">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Samuel Tony</h2>
+                        <p>Marketing Head at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h2>Banjmin Leo</h2>
+                        <p>Software Developer at Amazon</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Steave Greg</h2>
+                        <p>Web Devloper at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.png">
+                    <div>
+                        <h2>Martin Lewis</h2>
+                        <p>Marketing Head at Google</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-usefull-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyrighr-msg">
+                <img src="images/logo.png">
+                <p> LinkedIn &#169; All right reserved </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
